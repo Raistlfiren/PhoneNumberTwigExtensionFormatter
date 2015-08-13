@@ -1,5 +1,5 @@
 {
-    "name": "Raistlfiren/PhoneNumberTwigExtensionFormatter",
+    "name": "raistlfiren/phonenumbertwigextensionformatter",
     "description": "A twig filter that converts phone numbers from 1234567890 to (123) 456-7890.",
     "type": "bolt-extension",
     "require": {
