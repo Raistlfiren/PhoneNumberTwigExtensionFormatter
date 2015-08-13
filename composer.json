@@ -1,0 +1,23 @@
+{
+    "name": "Raistlfiren/PhoneNumberTwigExtensionFormatter",
+    "description": "A twig filter that converts phone numbers from 1234567890 to (123) 456-7890.",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Valandra",
+            "email": "avaland@woopta.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\Raistlfiren\\PhoneNumberTwigExtensionFormatter\\": ""
+        }
+    }
+}
