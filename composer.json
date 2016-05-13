@@ -25,6 +25,6 @@
         }
     },
     "extra": {
-        "bolt-class": "Bolt\\Extension\\Raistlfiren\\PhoneNumberTwigExtensionFormatter\\PhoneNumberExtension"
+        "bolt-class": "Bolt\\Extension\\Raistlfiren\\PhoneNumberExtension\\PhoneNumberExtension"
     }
 }
