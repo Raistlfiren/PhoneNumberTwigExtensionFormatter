@@ -17,14 +17,12 @@
             "email": "avaland@woopta.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\Raistlfiren\\PhoneNumberExtension\\": "src"
+            "Raistlfiren\\PhoneNumberExtension\\": "src"
         }
     },
     "extra": {
-        "bolt-class": "Bolt\\Extension\\Raistlfiren\\PhoneNumberExtension\\PhoneNumberExtension"
+        "bolt-class": "Raistlfiren\\PhoneNumberExtension\\PhoneNumberExtension"
     }
 }

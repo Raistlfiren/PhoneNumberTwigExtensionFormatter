@@ -1,9 +1,7 @@
 <?php
 
-namespace Bolt\Extension\Raistlfiren\PhoneNumberExtension;
+namespace Raistlfiren\PhoneNumberExtension;
 
-use Bolt\Application;
-use Bolt\BaseExtension;
 use Bolt\Extension\SimpleExtension;
 
 class PhoneNumberExtension extends SimpleExtension
@@ -18,11 +16,11 @@ class PhoneNumberExtension extends SimpleExtension
     public function phoneNumberFilter($phone)
     {
         $phone = preg_replace(
-            '~.*(\d{3})[^\d]{0,7}(\d{3})[^\d]{0,7}(\d{4}).*~', '($1) $2-$3',
+            '~.*(\d{3})[^\d]{0,7}(\d{3})[^\d]{0,7}(\d{4}).*~',
+            '($1) $2-$3',
             $phone
         );
 
         return $phone;
     }
-
 }
